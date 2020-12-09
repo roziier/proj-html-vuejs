@@ -7,9 +7,7 @@
 /* HEADER */
 nav{
   height: 80px;
-  /* debug */
-  background-color: lightgreen;
-  border: 1px solid black;
+  background-color: white;
 }
 
 #jumbo{
@@ -38,7 +36,8 @@ nav{
   font-size: 60px;
 }
 
-#jumbo > button{
+#jumbo > button,
+.short_five > button{
   background-color: #BCAFA1;
   padding: 12px;
   border-radius: 20px;
@@ -46,7 +45,8 @@ nav{
   outline: none;
 }
 
-#jumbo > button:hover{
+#jumbo > button:hover,
+.short_five > button:hover{
   background-color: #32A7B9;
 }
 
@@ -95,6 +95,7 @@ nav{
 
 #radius_section > i, h4{
   color: #B9AFA2;
+
 }
 
 #radius_section > i{
@@ -321,4 +322,54 @@ nav{
 
 #sectionfour > p{
   font-size: 18px;
+}
+
+#sectionfive{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.short_five{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#long_five{
+  width: 40%;
+  height: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+}
+
+#discount{
+  font-size: 60px;
+}
+
+#long_five > h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+#border{
+  border: 1px solid white;
+}
+
+footer{
+  width: 100%;
+  height: 140px;
+  background-color: white;
+  border-top: 6px solid silver;
 }
