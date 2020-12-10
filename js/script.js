@@ -5,7 +5,7 @@ var app = new Vue ({
     arrayHeader: [
       // block one
       {
-        icon: ['fas', 'fa-home'],
+        icon: 'fas fa-home',
         title: 'null',
         description: 'null',
         img: 'null'

@@ -25,9 +25,10 @@
     <header>
       <!-- nav bar -->
       <nav>
-        <!-- <div class="header_block" v-for="(block, i) in arrayHeader">
-          <i v-if="block[i].icon !== 'null'">ciao</i>
-        </div> -->
+        <div class="header_block" v-for="block in arrayHeader">
+          <i v-if="block.icon !== 'null'" :class="block.icon"></i>
+
+        </div>
 
       </nav>
       <!-- jumbo -->
