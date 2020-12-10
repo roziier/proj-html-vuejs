@@ -19,13 +19,15 @@
 
   <body>
 
+    <div id="app">
+
     <!-- header (nav + jumbo) -->
     <header>
       <!-- nav bar -->
-      <nav id="root">
-        <div class="header_block" v-for="(block, i) in arrayHeader">
+      <nav>
+        <!-- <div class="header_block" v-for="(block, i) in arrayHeader">
           <i v-if="block[i].icon !== 'null'">ciao</i>
-        </div>
+        </div> -->
 
       </nav>
       <!-- jumbo -->
@@ -251,7 +253,7 @@
     </main>
 
     <!-- footer -->
-    <footer id="app">
+    <footer>
       <div class="footer_block">
         <img :src="'img/' + logoImg" style="width:250px;height:40px">
       </div>
@@ -269,6 +271,8 @@
       </div>
 
     </footer>
+
+    </div>
 
 
 
