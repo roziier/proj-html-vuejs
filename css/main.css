@@ -339,6 +339,7 @@ nav{
 
 #sectionfour > p{
   font-size: 18px;
+  line-height: 2.3;
   font-family: 'Exo', sans-serif;
 }
 
@@ -391,4 +392,33 @@ footer{
   height: 140px;
   background-color: white;
   border-top: 6px solid silver;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_block{
+  min-width: 20%;
+  max-width: 30%;
+  height: 100%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.footer_block > ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer_block ul li{
+ display: inline-block;
+ font-family: 'Open Sans Bold', sans-serif;
+ line-height: 1.8;
+}
+
+.footer_block li{
+  padding: 0 5px;
+  border-right: 1px solid black;
 }

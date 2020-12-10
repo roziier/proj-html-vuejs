@@ -232,33 +232,44 @@
         <p>FRIEDA FRIENDSON, MASSEUSE</p>
       </section>
 
-    <section id="sectionfive">
-      <div class="short_five" id="border">
-        <div id="discount">25%</div>
-        <div>SPECIAL OFFER</div>
-      </div>
-      <div id="long_five">
-        <h1>Take some time. Treat yourself. You deserve it.</h1>
-        <div>Book a tratment this month and receive a 25% on all further tratments.</div>
-      </div>
-      <div class="short_five">
-        <button type="button" name="button">BOOK NOW</button>
-      </div>
-    </section>
+      <section id="sectionfive">
+        <div class="short_five" id="border">
+          <div id="discount">25%</div>
+          <div>SPECIAL OFFER</div>
+        </div>
+        <div id="long_five">
+          <h1>Take some time. Treat yourself. You deserve it.</h1>
+          <div>Book a tratment this month and receive a 25% on all further tratments.</div>
+        </div>
+        <div class="short_five">
+          <button type="button" name="button">BOOK NOW</button>
+        </div>
+      </section>
+    </main>
 
     <!-- footer -->
-    <footer>
+    <footer id="app">
+      <div class="footer_block">
+        <img :src="'img/' + logoImg" style="width:250px;height:50px">
+      </div>
+      <div class="footer_block">
+        <ul>
+          <li v-for="link in arrayLinkFoot"><a href="https://www.w3schools.com">{{link}}</a></li>
+        </ul>
+
+      </div>
+      <div class="footer_block">
+
+      </div>
 
     </footer>
 
 
 
-    </main>
-
 
 
     <!-- JS Script -->
-    <script src="js/script"></script>
+    <script src="js/script.js"></script>
 
   </body>
 </html>
