@@ -29,11 +29,13 @@ nav{
 }
 
 #jumbo > h4{
-  font-size: 25px;
+  font-size: 32px;
+  font-family: 'Satisfy', cursive;
 }
 
 #jumbo > h1{
   font-size: 60px;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 #jumbo > button,
@@ -43,6 +45,7 @@ nav{
   border-radius: 20px;
   border: none;
   outline: none;
+  font-family: 'Exo', sans-serif;
 }
 
 #jumbo > button:hover,
@@ -91,11 +94,16 @@ nav{
   color: #70727B;
   font-size: 42px;
   margin-top: 120px;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+#radius_section > h4 {
+  font-family: 'Satisfy', cursive;
+  font-size: 26px;
 }
 
 #radius_section > i, h4{
   color: #B9AFA2;
-
 }
 
 #radius_section > i{
@@ -109,6 +117,7 @@ nav{
 
 #radius_section > p{
   color: #70727B;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 #line{
@@ -123,6 +132,7 @@ nav{
   border-radius: 20px;
   border: 1px solid #BCAFA1;
   outline: none;
+    font-family: 'Exo', sans-serif;
 }
 
 #radius_section > button:hover,
@@ -190,12 +200,14 @@ nav{
   color: #70727B;
   font-size: 52px;
   margin: 30px 60px;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 .facebody_box > p {
   text-align: left;
   margin: 0 60px;
   color: #70727B;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 #oilmassage{
@@ -207,6 +219,7 @@ nav{
   margin-right: 60px;
   display: flex;
   flex-direction: column;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 #littletitle_icon{
@@ -217,6 +230,7 @@ nav{
   color: #BCAFA1;
   margin-top: 10px;
   margin-left: 10px;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 #oilmassage > p{
@@ -237,6 +251,7 @@ nav{
   font-size: 20px;
   display: flex;
   align-items: center;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 .maniaroma > i {
@@ -266,6 +281,7 @@ nav{
   text-align: center;
   font-size: 40px;
   padding: 30px;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 #container_treatments{
@@ -300,6 +316,7 @@ nav{
 
 .treatments_title > h4{
   font-size: 25px;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 .treatments_title{
@@ -322,6 +339,7 @@ nav{
 
 #sectionfour > p{
   font-size: 18px;
+  font-family: 'Exo', sans-serif;
 }
 
 #sectionfive{
@@ -343,7 +361,7 @@ nav{
 }
 
 #long_five{
-  width: 40%;
+  width: 42%;
   height: 100px;
   margin-left: 5%;
   margin-right: 5%;
@@ -352,6 +370,7 @@ nav{
   align-items: flex-start;
   justify-content: center;
   color: white;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 #discount{
