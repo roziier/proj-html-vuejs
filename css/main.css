@@ -400,9 +400,9 @@ footer{
   min-width: 20%;
   max-width: 30%;
   height: 100%;
-  border: 1px solid black;
   display: flex;
   align-items: center;
+  font-size: 10px;
 }
 
 .footer_block > ul{
@@ -420,5 +420,22 @@ footer{
 
 .footer_block li{
   padding: 0 5px;
-  border-right: 1px solid black;
+  border-right: 1px solid grey;
+}
+
+a{
+  text-decoration: none;
+  color: grey;
+}
+
+.icon_footer{
+  padding: 12px;
+  border-radius: 5px;
+  background-color: silver;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+#icons_block{
+  justify-content: flex-end;
 }

@@ -250,15 +250,18 @@
     <!-- footer -->
     <footer id="app">
       <div class="footer_block">
-        <img :src="'img/' + logoImg" style="width:250px;height:50px">
+        <img :src="'img/' + logoImg" style="width:250px;height:40px">
       </div>
       <div class="footer_block">
         <ul>
-          <li v-for="link in arrayLinkFoot"><a href="https://www.w3schools.com">{{link}}</a></li>
+          <li v-for="link in arrayLinkFoot"><a v-for="web in arrayHref" :href="web">{{link}}</a></li>
         </ul>
 
       </div>
-      <div class="footer_block">
+      <div class="footer_block" id="icons_block">
+        <div class="icon_footer" v-for="social in arrayIconFooter">
+          <i class="fab" :class="social"></i>
+        </div>
 
       </div>
 
