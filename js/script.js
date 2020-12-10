@@ -29,7 +29,7 @@ var app = new Vue ({
         icon: 'null',
         title: 'null',
         description: 'null',
-        img: 'null'
+        img: 'img/logo.png'
       },
       // block five
       {
@@ -40,7 +40,7 @@ var app = new Vue ({
       },
       // block six
       {
-        icon: ['fas', 'fa-bookark'],
+        icon: ['fas', 'fa-bookmark'],
         title: 'BOOK NOW',
         description: 'Special Offers',
         img: 'null'

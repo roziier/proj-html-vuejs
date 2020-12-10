@@ -27,9 +27,10 @@
       <nav>
         <div class="header_block" v-for="block in arrayHeader">
           <i v-if="block.icon !== 'null'" :class="block.icon"></i>
-
+          <h4 v-if="block.title !== 'null'">{{block.title}}</h4>
+          <div v-if="block.description !== 'null'">{{block.description}}</div>
+          <img v-if="block.img !== 'null'" :src="block.img" style="width:250px;height:30px;">
         </div>
-
       </nav>
       <!-- jumbo -->
       <div id="jumbo">
@@ -130,7 +131,16 @@
         <div id="container_treatments">
 
           <div class="treatments_box">
-            <img src="img/layer1.jpg" alt="">
+            <div class="container">
+              <div class="overlay overlayLeft">
+                <h4>Hydrotherapy</h4>
+              </div>
+              <div class="img">
+                <img src="img/layer1.jpg" alt="">
+              </div>
+            </div>
+
+
             <div class="treatments_title">
               <h4>Hydrotherapy</h4>
 
@@ -142,7 +152,15 @@
 
           </div>
           <div class="treatments_box">
-            <img src="img/layer2.jpg" alt="">
+            <div class="container">
+              <div class="overlay overlayLeft">
+                <h4>Massage</h4>
+              </div>
+              <div class="img">
+                <img src="img/layer2.jpg" alt="">
+              </div>
+            </div>
+
             <div class="treatments_title">
               <h4>Massage</h4>
 
@@ -154,7 +172,15 @@
 
           </div>
           <div class="treatments_box">
-            <img src="img/layer3.jpg" alt="">
+            <div class="container">
+              <div class="overlay overlayLeft">
+                <h4>Aromatherapy</h4>
+              </div>
+              <div class="img">
+                <img src="img/layer3.jpg" alt="">
+              </div>
+            </div>
+
             <div class="treatments_title">
               <h4>Aromatherapy</h4>
 
@@ -166,7 +192,14 @@
 
           </div>
           <div class="treatments_box">
-            <img src="img/layer4.jpg" alt="">
+            <div class="container">
+              <div class="overlay overlayLeft">
+                <h4>Heat Therapy</h4>
+              </div>
+              <div class="img">
+                <img src="img/layer4.jpg" alt="">
+              </div>
+            </div>
             <div class="treatments_title">
               <h4>Heat Therapy</h4>
 
@@ -178,7 +211,15 @@
 
           </div>
           <div class="treatments_box">
-            <img src="img/layer5.jpg" alt="">
+            <div class="container">
+              <div class="overlay overlayLeft">
+                <h4>Skin Care</h4>
+              </div>
+              <div class="img">
+                <img src="img/layer5.jpg" alt="">
+              </div>
+            </div>
+
             <div class="treatments_title">
               <h4>Skin Care</h4>
 
@@ -190,7 +231,15 @@
 
           </div>
           <div class="treatments_box">
-            <img src="img/layer6.jpg" alt="">
+            <div class="container">
+              <div class="overlay overlayLeft">
+                <h4>Spa Days</h4>
+              </div>
+              <div class="img">
+                <img src="img/layer6.jpg" alt="">
+              </div>
+            </div>
+
             <div class="treatments_title">
               <h4>Spa Days</h4>
 
@@ -202,7 +251,16 @@
 
           </div>
           <div class="treatments_box">
-            <img src="img/layer7.jpg" alt="">
+            <div class="container">
+              <div class="overlay overlayLeft">
+                <h4>Beauty Treatments</h4>
+              </div>
+              <div class="img">
+                <img src="img/layer7.jpg" alt="">
+              </div>
+            </div>
+
+
             <div class="treatments_title">
               <h4>Beauty Treatments</h4>
 
@@ -214,7 +272,14 @@
 
           </div>
           <div class="treatments_box">
-            <img src="img/layer8.jpg" alt="">
+            <div class="container">
+              <div class="overlay overlayLeft">
+                <h4>Residential</h4>
+              </div>
+              <div class="img">
+                <img src="img/layer8.jpg" alt="">
+              </div>
+            </div>
             <div class="treatments_title">
               <h4>Residential</h4>
 
