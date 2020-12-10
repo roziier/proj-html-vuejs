@@ -22,7 +22,12 @@
     <!-- header (nav + jumbo) -->
     <header>
       <!-- nav bar -->
-      <nav>
+      <nav id="app">
+        <div class="header_block" v-for="(block, i) in arrayHeader">
+          <i v-if="block[i].icon !== 'null'" :class="block[i].icon[0] block[i].icon[1]"></i>
+          <h4 v-if="block[i].title !== 'null'">{{block[i].title}}</h4>
+
+        </div>
 
       </nav>
       <!-- jumbo -->
