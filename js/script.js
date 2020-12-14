@@ -3,6 +3,14 @@ var app = new Vue ({
   data: {
     logoImg: 'logo.png',
     arrayHeader: [
+      // for the crack
+      // block four
+      // {
+      //   icon: 'null',
+      //   title: 'null',
+      //   description: 'null',
+      //   img: 'img/logo.png'
+      // },
       // block one
       {
         icon: 'fas fa-home',
@@ -52,6 +60,14 @@ var app = new Vue ({
         description: 'null',
         img: 'null'
       }
+      // ,
+      // // for the crack
+      // {
+      //   icon: ['fas', 'fa-heart'],
+      //   title: 'JOURNAL',
+      //   description: 'Tips & Tricks',
+      //   img: 'null'
+      // }
     ],
     arrayHref: ['https://www.google.it/'],
     arrayLinkFoot: ['@ COPYRIGHT 2012-2020', 'AVADA THEME BY THEMEFUSION', 'ALL RIGHT RESERVED', 'POWERED BY WORDPRESS'],
